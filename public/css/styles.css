@@ -1,5 +1,19 @@
-.titulo h1{
+body{
+    background-color: #fff0d8;
+}
+.contato{
+    color: #3f3a3a;
+}
+.contato h3{
     text-align: center;
+    margin-top: 15px;
+}
+.contato h5{
+    text-align: center;
+}
+
+.contato button{
+    background-color: #d58819  !important;
 }
 
 .redes-sociais{
@@ -8,6 +22,7 @@
 
 .imagem-redes{
     width: 50px;
+    margin-top: 15px;
 }
 .mapa{
     margin-top: 15px;

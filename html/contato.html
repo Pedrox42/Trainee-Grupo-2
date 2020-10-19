@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/styles.css">
 
     <title>Contato - Paula's Delivery</title>
 </head>
@@ -13,36 +13,63 @@
 <body>
 
     <!--Navegação-->
+    <div class="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" style="background-color: #f8b2c0;">
+<h1>navbar</h1>
 
-    <div class="container">
-        <div class="row">
-            <!--Titulo-->
-            <div class="col-12 titulo" style="background-color: crimson;">
-                <h1>Contato</h1>
-            </div>
-            <!--redes sociais e e-mail-->
-            <div style="background-color: palevioletred;" class="col-md-6 redes-sociais">
-                <img class="imagem-redes" src="img/facebook.png">
-                <figcaption>Paula's Delivery</figcaption>
+                </div>
+                <!--redes sociais, e-mail e telefone-->
+                <div class="col-md-6 redes-sociais">
+                    <h3>Onde nos encontrar</h3>
 
-                <img class="imagem-redes" src="img/instagram.png">
-                <figcaption>@PaulasDelivery</figcaption>
 
-                <img class="imagem-redes" src="img/email.png">
-                <figcaption>paulasdelivery@gmail.com</figcaption>
+                    <img class="imagem-redes" src="../public/img/facebook.png">
+                    <figcaption>Paula's Delivery</figcaption>
 
+                    <img class="imagem-redes" src="../public/img/instagram.png">
+                    <figcaption>@PaulasDelivery</figcaption>
+
+                    <img class="imagem-redes" src="../public/img/email.png">
+                    <figcaption>paulasdelivery@gmail.com</figcaption>
+
+                    <img class="imagem-redes" src="../public/img/telefone.png">
+                    <figcaption>+55 32 9 00000000</figcaption>
+
+                </div>
+                <!--formulario-->
+                <div class="col-md-6">
+                    <form>
+                        <h3>Entre em contato conosco</h3>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Endereço de email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Seu email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Senha</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Telefone</label>
+                            <input type="tel" class="form-control" id="personal_phone" placeholder="Telefone">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+                <!--mapa-->
+                <div class="col-12 mapa">
+                    <h3>Faça uma visita</h3>
+                    <h5>Rua José Lourenço Kelmer, UFJF - Faculdade de Ciências Exatas, sala 3313</h5>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.1145298738793!2d-43.37446588505472!3d-21.775827985598536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989b9e2bea807b%3A0x7ac85ca76e3d3d1d!2sCode%20Empresa%20Jr.%20de%20Computa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1603134072959!5m2!1spt-BR!2sbr"
+                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
             </div>
-            <!--formulario-->
-            <div style="background-color: cadetblue;" class="col-md-6">
-                <p>formulario</p>
-            </div>
-            <!--mapa-->
-            <div class="col-12 titulo mapa" style="background-color: olivedrab;">
-                <h1>FAÇA UMA VISITA</h1>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.1145298738793!2d-43.37446588505472!3d-21.775827985598536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989b9e2bea807b%3A0x7ac85ca76e3d3d1d!2sCode%20Empresa%20Jr.%20de%20Computa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1603134072959!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
+
         </div>
-
     </div>
     <!--footer-->
 
@@ -54,7 +81,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../public/js/bootstrap.min.js"></script>
 </body>
 
 </html>
