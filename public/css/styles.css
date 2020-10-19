@@ -1,0 +1,17 @@
+.titulo h1{
+    text-align: center;
+}
+
+.redes-sociais{
+    text-align: center;
+}
+
+.imagem-redes{
+    width: 50px;
+}
+.mapa{
+    margin-top: 15px;
+}
+.mapa iframe{
+    margin-top: 15px;
+}
