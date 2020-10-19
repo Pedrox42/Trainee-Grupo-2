@@ -1,11 +1,18 @@
 body{
     background-color: #fff0d8;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.titulo h1{
+    text-align: center;
+    font-weight: 500;
 }
 .contato{
     color: #3f3a3a;
 }
 .contato h3{
     text-align: center;
+    font-weight: 500;
+
     margin-top: 15px;
 }
 .contato h5{
@@ -13,7 +20,7 @@ body{
 }
 
 .contato button{
-    background-color: #d58819  !important;
+    background-color: #d58819;
 }
 
 .redes-sociais{
