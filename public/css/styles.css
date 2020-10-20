@@ -1,0 +1,22 @@
+html, body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #FFF0DB;
+}
+body{
+	background-color: #FFF0DB;
+}
+.topo{
+	background-color: #FFF0DB;
+	text-align: center;
+	font-family: Poppins;
+	padding-bottom: 10px;
+	
+}
+
+
+.carousel{
+	width: 40%;
+	background-color: #FFF0DB !important;
+	margin-left: auto;
+	margin-right: auto;
+}
