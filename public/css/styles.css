@@ -20,3 +20,15 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
+.produto{
+	background-color: #FFF0DB;
+	font-family: Poppins;
+	
+}
+.produto h2{
+	font-size: 20px;
+	padding-top: 100px;
+}
+.produto img{
+	width: 20%;
+}
