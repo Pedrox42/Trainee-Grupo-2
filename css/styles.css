@@ -1,0 +1,25 @@
+nav{ 
+	background-color: #F8B2C0 !important; 
+	font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.nav-item{
+	font-size: 19px;
+	color: white !important;
+
+}
+
+.navbar-brand{
+	font-size: 25px;
+}
+
+
+
+@media  (max-width: 1000px) {
+.menujs {
+	background-color: yellow !important;
+}
+
+
+
+}
