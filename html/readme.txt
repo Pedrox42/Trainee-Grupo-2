@@ -1,1 +1,0 @@
-Aqui voces vao colocar as páginas de voces, navbar e footer

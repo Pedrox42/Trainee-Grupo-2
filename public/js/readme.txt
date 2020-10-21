@@ -1,1 +1,0 @@
-Aqui ficam os javascript que voces fizerem para as paginas
