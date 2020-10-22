@@ -26,8 +26,9 @@
 }
 
 .imagem-redes-contato{
-    width: 65px;
+    font-size: 70px;
     margin-top: 15px;
+    color: #3f3a3a;
 }
 .mensagem-contato{
     resize: none;
