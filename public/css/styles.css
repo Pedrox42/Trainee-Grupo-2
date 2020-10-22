@@ -45,3 +45,24 @@
 }
 
 
+/* Footer */
+
+.footer-paulas {
+    background-color: #3F3A3A;
+    color: #D58819;
+    width: 100%;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.coluna-footer-paulas ul li {
+    list-style: none;
+}
+
+a {
+    color: #D58819 !important;
+}
+
+a:hover {
+    color: #FFF0DB !important;
+    text-decoration: none !important;
+}
