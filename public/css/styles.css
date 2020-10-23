@@ -1,13 +1,7 @@
-body {
+.tudo-produtos {
     background-color: #fff0db !important;
     color: #3f3a3a;
-}
-
-.titulo-produtos img {
-    width: 60px;
-    float: left;
-    margin-top: -3%;
-    max-width: 12%;
+    text-align: center !important;
 }
 
 .titulo-produtos h1 {
@@ -15,79 +9,37 @@ body {
     font-family: 'Baloo Chettan 2', cursive;
     font-weight: 700;
     font-size: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
-    max-width: 100%;
     margin-top: 3%;
 }
 
 .corpo-produtos {
-    padding-right: 40px;
-    padding-left: 40px;
     font-family: 'Baloo Chettan 2', cursive;
     font-weight: 400;
-    max-width: 100%;
+    text-align: center !important;
 }
 
 .corpo-produtos h2 {
     font-weight: 500;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
-.produbox {
-    width: 100%;
-    height: 100%;
-    background-color: #3f3a3a;
-    opacity: 0;
-    padding-top: 90px;
-    transition: 0.5s;
+.cards-produtos {
+    font-family: 'Baloo Chettan 2', cursive;
+    background-color: #3e3b39 !important;
+    text-align: center !important;
 }
 
-.produbox:hover {
-    opacity: 0.8;
-    transition: 1s;
-}
-
-.produbox-text {
-    text-align: center;
-    margin: auto;
-}
-
-.produbox-text a {
-    text-decoration: none;
-}
-
-.produbox-text h1 {
-    font-size: 25px;
-    font-family: 'Baloo 2 Chettan', cursive;
+.cards-produtos h3 {
+    font-size: 24px;
     color: #f8b2c0;
-    margin-top: 0;
 }
 
-.produbox-text h2 {
-    font-size: 15px;
-    font-family: 'Baloo 2 Chettan', cursive;
+.cards-produtos h4 {
+    font-size: 18px;
     color: #57e2e2;
-    margin-top: 0;
 }
 
-.miniatura {
-    width: 230px;
-    height: 230px;
-    display: inline-block;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    background-size: contain;
-    overflow: hidden;
-    max-width: 100%;
-    background-repeat: ;
+.cards-produtos a {
+    text-decoration: none !important;
 }
-
-.miniatura a {
-    text-decoration: none;
-}
-
-@media (max-width:900px) {
-    .produbox {
-        opacity: 0.8;
-    }
