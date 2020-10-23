@@ -1,7 +1,6 @@
 .tudo-produtos {
     background-color: #fff0db !important;
     color: #3f3a3a;
-    text-align: center !important;
 }
 
 .titulo-produtos h1 {
@@ -9,13 +8,12 @@
     font-family: 'Baloo Chettan 2', cursive;
     font-weight: 700;
     font-size: 50px;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .corpo-produtos {
     font-family: 'Baloo Chettan 2', cursive;
     font-weight: 400;
-    text-align: center !important;
 }
 
 .corpo-produtos h2 {
@@ -27,7 +25,6 @@
 .cards-produtos {
     font-family: 'Baloo Chettan 2', cursive;
     background-color: #3e3b39 !important;
-    text-align: center !important;
 }
 
 .cards-produtos h3 {
