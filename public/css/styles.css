@@ -10,13 +10,24 @@
 
 .coluna-footer-paulas ul li {
     list-style: none;
+    padding: 0px;
 }
 
-a {
+.fonte-footer {
     color: #D58819 !important;
+
 }
 
-a:hover {
+.fonte-footer:hover {
     color: #FFF0DB !important;
     text-decoration: none !important;
+}
+
+
+.fab {
+    font-size: 20px;
+}
+
+.menu-ul {
+	padding: 0px;
 }
