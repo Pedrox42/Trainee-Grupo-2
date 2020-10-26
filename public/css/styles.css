@@ -1,7 +1,9 @@
 .contato{
     color: #3f3a3a;
     background-color: #fff0d8;
-    font-family: 'Baloo Bhaina 2', cursive;}
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
 .titulo-contato h1{
     text-align: center;
     font-weight: 700;
@@ -26,10 +28,17 @@
 }
 
 .imagem-redes-contato{
-    font-size: 70px;
+    font-size: 40px;
     margin-top: 15px;
     color: #3f3a3a;
 }
+.form-contato{
+    border-color: #d58819 !important;
+}
+.form-contato:focus{
+    box-shadow: 0px 0px 10px 2px #d58819;
+}
+
 .mensagem-contato{
     resize: none;
 }
