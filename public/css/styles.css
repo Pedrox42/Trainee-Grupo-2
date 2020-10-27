@@ -14,6 +14,9 @@
 	
 
 }
+.carousel{
+	width: 100%;
+}
 
 .topo{
 	background-color: #fef0db;
@@ -61,24 +64,53 @@
 	font-family: 'Baloo Chettan 2', cursive;
 
 }
+
+
+.pedido-home{
+	background-color: #fef0db;
+	font-family: 'Baloo Chettan 2', cursive;	
+	display: flex;
+	justify-content: center;
+}
+
+
+
 .card-home{
 	background-color: #3e3b39 !important;
-	font-family: 'Baloo Chettan 2', cursive;
 	
-	
-	
-	
-
 }
-
 .card-home h5{
 	color: #b2edef;
-	
 }
 .card-home h6{
-	font-size: 20px;
 	color: #ff66c4;
+	font-size: 20px;
+}
+.box-image{
 	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box-text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
+.button-home{
+	background-color:  #d9861b !important;
+}
+.pedido-home-text h1{
+	color: #d9861b;
+}
+.pedido-home-text h3{
+	color: #3e3b39;
+}
 
+.card-1{
+		display: flex;
+		justify-content: center;
+	
+}
