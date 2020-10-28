@@ -1,116 +1,66 @@
-
-.navbar{
-	background-color: #3e3b39;
+.navbar {
+    background-color: #3e3b39;
 }
 
-
-.topo-home{
-	background-color: #fef0db;
+.container-fluid {
+    background-color: #fef0db;
 }
 
-.container-fluid{
-	background-color: #fef0db ;
-	
-	
-
-}
-.carousel{
-	width: 100%;
+.carousel {
+    width: 100%;
 }
 
-.topo{
-	background-color: #fef0db;
+.topo h1 {
+    color: #3e3b39;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
 }
 
-.topo h1{
-	color:#3e3b39;
-	font-family: 'Baloo Chettan 2', cursive;
-	font-weight: 700;
-	font-size: 50px;
-	text-align: center;
-
+.produto-home {
+    background-color: #fef0db;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 
-
-
-
-.content{
-	background-color: #fef0db;
+.produto-home h1 {
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #3e3b39;
 }
 
-.destaques{
-	background-color: #fef0db;
+.produto-home h2 {
+    color: #3e3b39;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 
-.produto-home{
-	background-color: #fef0db;
-	font-family: 'Baloo Chettan 2', cursive;
-	
-	
+.pedido-home {
+    background-color: #fef0db;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 
-.produto-home h1{
-	font-family: 'Baloo Chettan 2', cursive;
-	color:#3e3b39;
-	text-align: center;
+.card-home {
+    background-color: #3e3b39 !important;
 }
 
-
-.produto-home h2{
-	color:#3e3b39;
-	font-size: 28px;
-	text-align: center;
-	font-weight: 700;
-	font-family: 'Baloo Chettan 2', cursive;
-
+.card-home h5 {
+    color: #b2edef;
 }
 
-
-.pedido-home{
-	background-color: #fef0db;
-	font-family: 'Baloo Chettan 2', cursive;	
-	display: flex;
-	justify-content: center;
+.card-home h6 {
+    color: #ff66c4;
+    font-size: 20px;
 }
 
-
-
-.card-home{
-	background-color: #3e3b39 !important;
-	
-}
-.card-home h5{
-	color: #b2edef;
-}
-.card-home h6{
-	color: #ff66c4;
-	font-size: 20px;
-}
-.box-image{
-	
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.box-text{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+.button-home {
+    background-color: #d9861b !important;
 }
 
-.button-home{
-	background-color:  #d9861b !important;
-}
-.pedido-home-text h1{
-	color: #d9861b;
-}
-.pedido-home-text h3{
-	color: #3e3b39;
+.pedido-home-text h1 {
+    color: #d9861b;
 }
 
-.card-1{
-		display: flex;
-		justify-content: center;
-	
+.pedido-home-text h3 {
+    color: #3e3b39;
 }
