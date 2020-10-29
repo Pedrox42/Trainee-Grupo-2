@@ -1,0 +1,91 @@
+    /* Login Tela */
+
+.corpo_site {
+    background-color: #FFF0DB;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.fundo-login {
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.forma {
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.logo-paulas-login {
+    width: 190px;
+    transform: translateY(-10px);
+}
+
+.login-topo {
+    text-align: center;
+}
+
+.titulo {
+    color: orange;
+}
+
+.forma-grupo {
+    margin-bottom: 15px;
+}
+
+.forma-grupo label {
+    width: 100%;
+    color: grey;
+    display: block;
+}
+
+.forma-grupo button {
+    background-image: linear-gradient(to right, #fb8f00, #feb400);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0;
+    margin-top: 15px;
+}
+
+.olho {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+#hide1 {
+    display: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.olho-senha {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+@media (max-width: 1024px) {
+
+
+.forma {
+    height: auto;
+    width: auto;
+}
+
+
+
+.forma-grupo button:hover {
+    background-image: linear-gradient(to right, #fb8f00, #feb400);
+    opacity: 90%;
+ }
+        
+
+}
