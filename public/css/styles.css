@@ -9,6 +9,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 500px;
+    width: auto;
     
 }
 
@@ -41,5 +43,10 @@
     font-size: 52px;
 }
 .box-image-about img{
-    box-shadow: 3px 3px 3px  grey;
+    box-shadow: 5px 5px 5px  grey;
+}
+
+.border{
+    box-shadow: 7px 7px 7px  gray !important;
+    
 }
