@@ -75,7 +75,6 @@ padding-right: 0%;
 }
 .grande_crud{
     display: none;
-    back
 }
 .frontend_crud{
     background-color: #fff0d8;
@@ -151,3 +150,91 @@ background-color: #F8B2C0;
     }
 }
 
+
+
+.container-fluid {
+    background-color: #fef0db;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.produto-home {
+    background-color: #fef0db;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.produto-home h1 {
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #3e3b39;
+}
+
+.produto-home h2 {
+    color: #3e3b39;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.pedido-home {
+    background-color: #fef0db;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.card-home {
+    background-color: #3e3b39 !important;
+}
+
+.card-home h5 {
+    color: #b2edef;
+}
+
+.card-home h6 {
+    color: #ff66c4;
+    font-size: 20px;
+}
+
+.button-home {
+    background-color: #d9861b !important;
+}
+
+.pedido-home-text h1 {
+    color: #d9861b;
+}
+
+.pedido-home-text h3 {
+    color: #3e3b39;
+}
+/* Footer */
+
+.footer-paulas {
+    background-color: #3F3A3A;
+    color: #D58819;
+    width: 100%;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.coluna-footer-paulas ul li {
+    list-style: none;
+    padding: 0px;
+}
+
+.fonte-footer {
+    color: #D58819 !important;
+
+}
+
+.fonte-footer:hover {
+    color: #FFF0DB !important;
+    text-decoration: none !important;
+}
+
+
+.tamanho-icone  {
+    font-size: 20px;
+}
+
+.menu-ul {
+	padding: 0px;
+}
