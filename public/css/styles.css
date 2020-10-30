@@ -1,6 +1,4 @@
-.navbar {
-    background-color: #3e3b39;
-}
+
 
 .container-fluid {
     background-color: #fef0db;
@@ -55,4 +53,36 @@
 
 .pedido-home-text h3 {
     color: #3e3b39;
+}
+/* Footer */
+
+.footer-paulas {
+    background-color: #3F3A3A;
+    color: #D58819;
+    width: 100%;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.coluna-footer-paulas ul li {
+    list-style: none;
+    padding: 0px;
+}
+
+.fonte-footer {
+    color: #D58819 !important;
+
+}
+
+.fonte-footer:hover {
+    color: #FFF0DB !important;
+    text-decoration: none !important;
+}
+
+
+.tamanho-icone  {
+    font-size: 20px;
+}
+
+.menu-ul {
+	padding: 0px;
 }
