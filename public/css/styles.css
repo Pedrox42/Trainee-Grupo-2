@@ -5,43 +5,33 @@
     font-family: 'Baloo Chettan 2', cursive;
 }
 
-.fundo-login {
+.fundo_login {
     box-shadow: 1px 1px 5px #ccc;
     background-color: white;
     padding: 30px;
     border-radius: 5px;
 }
 
-.forma {
+.formato_login {
     width: 400px;
     margin: auto;
     padding-top: 40px;
 }
 
-.logo-paulas-login {
+.logo_paulas_login {
     width: 190px;
     transform: translateY(-10px);
 }
 
-.login-topo {
+.login_topo {
     text-align: center;
 }
 
-.titulo {
+.titulo_login {
     color: orange;
 }
 
-.forma-grupo {
-    margin-bottom: 15px;
-}
-
-.forma-grupo label {
-    width: 100%;
-    color: grey;
-    display: block;
-}
-
-.forma-grupo button {
+.formato_botao_login button {
     background-image: linear-gradient(to right, #fb8f00, #feb400);
     width: 100%;
     border-radius: 30px;
@@ -52,7 +42,12 @@
     margin-top: 15px;
 }
 
-.olho {
+.formato_botao_login  button:hover {
+    background-image: linear-gradient(to right, #fb8f00, #feb400);
+    opacity: 90%;
+ }
+   
+.olho_mostrar_senha {
     position: absolute;
     right: 10px;
     bottom: 5px;
@@ -66,26 +61,20 @@
     position: relative;
 }
 
-.olho-senha {
+.olho_senha {
     position: absolute;
     right: 10px;
     bottom: 5px;
 }
 
+
 @media (max-width: 1024px) {
 
 
-.forma {
+.formato_login {
     height: auto;
     width: auto;
 }
 
-
-
-.forma-grupo button:hover {
-    background-image: linear-gradient(to right, #fb8f00, #feb400);
-    opacity: 90%;
- }
-        
-
+    
 }

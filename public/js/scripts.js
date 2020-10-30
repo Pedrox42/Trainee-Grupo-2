@@ -7,16 +7,13 @@ function myFunction() {
         x.type = "text";
         y.style.display = "block";
         z.style.display = "none";
-    
-    
-
-    }
-
-    else {
-        
+    } else {
+        if (x.type == "text")
             x.type = "password";
         y.style.display = "none";
         z.style.display = "block";
 
-}
+
     }
+
+}
