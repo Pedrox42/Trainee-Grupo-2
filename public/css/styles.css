@@ -37,6 +37,7 @@
 }
 .form-contato{
     border-color: #d58819 !important;
+    background-color: #ffffff !important;
 }
 .form-contato:focus{
     box-shadow: 0px 0px 10px 2px #d58819;
