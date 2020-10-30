@@ -1,0 +1,45 @@
+.navbar {
+    background-color: #3e3b39;
+}
+
+
+
+.image-about {
+    background-image: url(../img/restaurante-quemsomos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.text-about h1 {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: 700;
+    font-size: 65px;
+}
+.corpoAbout h1{
+    background-color: #fef0db;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: 600;
+    color:#d9861b;
+}
+.container-fluid{
+    background-color: #fef0db;
+}
+.livro{
+    font-size: 48px;
+}
+.corpoAbout h4{
+    background-color: #fef0db;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: 500;
+    color: #3e3b39;
+}
+.hand{
+    font-size: 52px;
+}
+.box-image-about img{
+    box-shadow: 3px 3px 3px  grey;
+}
