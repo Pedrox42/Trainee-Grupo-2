@@ -1,7 +1,57 @@
-.colunas {
-	transform: translateY(350px) !important;
+/* Homepage Adm */
+
+.nome_area_adm {
+    transform: translateX(10px) !important;
+    font-size: 20px;
+    opacity: 60%
+}
+
+.formato_area_adm {
+    padding: 0px !important;
+}
+
+.paulas_titulo_adm {
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #D58819;
+    background-image: linear-gradient(to right, #fffcf5, #fffbf5);
+    border-color: black !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cor_titulo_paulas {
+    color: #57E2E2;
+}
+
+.cor_fundo_adm {
+    background-color: #FFF0DB;
+}
+
+.colunas_adm {
+    transform: translateY(300px) !important;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 1px 1px 5px black !important;
+    background-image: linear-gradient(to right, #3F3A3A, #242222);
 }
 
 .tamanho_icone_adm {
-	font-size: 80px !important;
-	color: ;
+    font-size: 80px !important;
+    color: #D58819;
+}
+
+.tamanho_icone_adm:hover {
+    font-size: 80px !important;
+    color: #D58819;
+    opacity: 85%;
+}
+
+.tamanho_fonte_adm {
+    font-size: 20px;
+    text-align: center !important;
+    transform: translateY(20px) !important;
+    margin-bottom: 30px !important;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #D58819;
+}
