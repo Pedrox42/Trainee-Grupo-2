@@ -1,8 +1,12 @@
 
 /* Footer */
 
+.tamanho_icone_footer {
+    font-size: 13px;
+}
+
 .footer-paulas {
-    background-color: #3F3A3A;
+    background-image: linear-gradient(to right, #3F3A3A, #242222);
     color: #D58819;
     width: 100%;
     font-family: 'Baloo Chettan 2', cursive;
@@ -19,8 +23,9 @@
 }
 
 .fonte-footer:hover {
-    color: #FFF0DB !important;
+    color: #D58819 !important;
     text-decoration: none !important;
+    opacity: 75%;
 }
 
 
@@ -31,3 +36,9 @@
 .menu-ul {
 	padding: 0px;
 }
+
+.tamanho_fonte_footer {
+    font-size: 10px;
+    padding-bottom: 10px !important;
+
+
