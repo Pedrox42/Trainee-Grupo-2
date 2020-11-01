@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 600px;
     width: auto;
     
 }
@@ -20,6 +20,7 @@
     font-family: 'Baloo Chettan 2', cursive;
     font-weight: 700;
     font-size: 65px;
+    
 }
 .corpoAbout h1{
     background-color: #fef0db;
@@ -27,14 +28,17 @@
     font-weight: 600;
     color:#d9861b;
 }
+.box-somos{
+    background-color: #fffbf5;
+}
 .container-fluid{
     background-color: #fef0db;
 }
 .livro{
     font-size: 48px;
 }
-.corpoAbout h4{
-    background-color: #fef0db;
+.corpoAbout h5{
+    background-color: #fffbf5;
     font-family: 'Baloo Chettan 2', cursive;
     font-weight: 500;
     color: #3e3b39;
