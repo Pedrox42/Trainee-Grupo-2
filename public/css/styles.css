@@ -1,0 +1,27 @@
+.product-page{
+    background-color: #fef0db;
+}
+
+  .card-product-page {
+    background-color: #3e3b39 !important;
+}
+
+.card-product-page h5 {
+    color: #b2edef;
+}
+
+.card-product-page h6 {
+    color: #ff66c4;
+    font-size: 20px;
+}
+.link-way{
+    color: #3e3b39 !important;
+    text-decoration:none  ;
+}
+.product-box{
+    background-color: #fbfedb;
+}
+.product-box-text h2{
+    color: #d9861b;
+    font-family: 'Baloo Chettan 2', cursive;
+}
