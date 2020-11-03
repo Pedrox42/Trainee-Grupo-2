@@ -31,10 +31,10 @@
 .box-somos{
     background-color: #fffbf5;
 }
-.container-fluid{
+.about-us-content{
     background-color: #fef0db;
 }
-.livro{
+.livro-about{
     font-size: 48px;
 }
 .corpoAbout h5{
@@ -43,14 +43,14 @@
     font-weight: 500;
     color: #3e3b39;
 }
-.hand{
+.hand-about{
     font-size: 52px;
 }
 .box-image-about img{
     box-shadow: 5px 5px 5px  grey;
 }
 
-.border{
+.border-about{
     box-shadow: 7px 7px 7px  gray !important;
     
 }
