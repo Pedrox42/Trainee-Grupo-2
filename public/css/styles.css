@@ -1,0 +1,74 @@
+.sidenav-sidebar {
+    font-family: 'Baloo Chettan 2', cursive;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3f3a3a;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.3s;
+}
+
+.sidenav-sidebar h2 {
+    padding: 10px 10px 30px 20px;
+}
+
+.sidenav-sidebar hr {
+    background-color: #d58819;
+    opacity: 0.3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidenav-sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #d58819;
+    display: block;
+}
+
+.sidenav-sidebar a:hover {
+    background-color: #d58819;
+    color: #3f3a3a;
+}
+
+.sidenav-sidebar .closebtn:hover {
+    opacity: 0.8;
+    background-color: #3f3a3a;
+    color: #d58819;
+}
+
+.sidenav-sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.menu-sidebar {
+    color: #3f3a3a;
+}
+
+.menu-sidebar:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#main-sidebar {
+    margin-left: 250px;
+    transition: margin-left .5s;
+    max-width: 100%;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav-sidebar {
+        padding-top: 15px;
+    }
+    .sidenav-sidebar a {
+        font-size: 18px;
+    }
+}
