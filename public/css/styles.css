@@ -17,11 +17,88 @@
 .link-way{
     color: #3e3b39 !important;
     text-decoration:none  ;
+    list-style: none;
 }
+.link-way li{
+    display: inline-block;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: 500;
+    color: #3e3b39 !important;
+    text-decoration: none;
+    
+}
+.link-way a{
+    color: #3e3b39;
+    text-decoration: none !important;
+}
+
+..link-way a :hover{
+    color: #3e3b39 !important;
+}
+
 .product-box{
-    background-color: #fbfedb;
+    background-color: #fffbf5;
+}
+.product-box-text{
+    margin-top: 50px;
 }
 .product-box-text h2{
     color: #d9861b;
     font-family: 'Baloo Chettan 2', cursive;
+}
+.product-box-text h5{
+    color: #3e3b39;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+.product-price h3{
+    color: #3e3b39;
+    font-family: 'Baloo Chettan 2', cursive;
+    padding-bottom: 60px;
+}
+
+.button-product{
+    background-image: linear-gradient(to right, #fc8f00,#feb501) !important;
+    color: white  !important;
+    border-radius: 50px !important;
+}
+.button-product:hover{
+ color: white;
+ opacity: 0.9 !important;
+}
+
+.product-image{
+    display: flex;
+    justify-content: center;
+    margin-left: -20px;
+}
+
+@media (max-width: 425px) 
+{
+    .product-image{
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+  .product-image img{
+      width: 80%;
+      
+  }
+}
+@media (max-width: 890px) 
+{
+    .product-image{
+        display: flex;
+        justify-content: center;
+        margin-left: -10px;
+    }
+  .product-image img{
+      width: 85%;
+  }
+  .product-box-text{
+      text-align: left;
+      margin-left: -10px;
+      padding: 0;
+      margin: 0;
+  }
 }
