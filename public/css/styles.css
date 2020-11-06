@@ -1,0 +1,15 @@
+.corpo-formu {
+    background-color: #fff0db;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #3f3a3a;
+}
+
+.corpo-formu h1 {
+    font-size: 43px;
+}
+
+.botao-formu {
+    transform: translateY(110px);
+    background: linear-gradient(to right, #fc8f00, #feb501);
+    color: #3f3a3a;
+}
