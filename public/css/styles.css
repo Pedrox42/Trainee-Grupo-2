@@ -3,13 +3,11 @@
     height: 100%;
     width: 250px;
     position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
     background-color: #3f3a3a;
     overflow-x: hidden;
+    left: 0;
     padding-top: 20px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .sidenav-sidebar h2 {
@@ -36,13 +34,13 @@
     color: #3f3a3a;
 }
 
-.sidenav-sidebar .closebtn:hover {
+.sidenav-sidebar .botao-sidebar:hover {
     opacity: 0.8;
     background-color: #3f3a3a;
     color: #d58819;
 }
 
-.sidenav-sidebar .closebtn {
+.sidenav-sidebar .botao-sidebar {
     position: absolute;
     top: 0;
     right: 25px;
@@ -60,15 +58,6 @@
 
 #main-sidebar {
     margin-left: 250px;
-    transition: margin-left .5s;
+    transition: margin-left 0.5s;
     max-width: 100%;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav-sidebar {
-        padding-top: 15px;
-    }
-    .sidenav-sidebar a {
-        font-size: 18px;
-    }
 }
