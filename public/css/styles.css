@@ -258,13 +258,19 @@
 }
 /* Navbar */
 
+body {
+    background-color: #FFF0DB !important;   
+}
+
 .navbar_cor {
-    background-color: #3F3A3A;
+    background-image: linear-gradient(to right, #3F3A3A, #242222);
     font-family: 'Luckiest Guy', cursive;
 }
 
 .tamanho_paula {
     font-size: 25px;
+    color: #57E2E2 !important;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 .tamanho_navbar span {
@@ -277,33 +283,30 @@
 }
 
 .fonte_cor_navbar:hover {
-    color: #FFF0DB !important;
+    color: #D58819 !important;
+    opacity: 75%;
 }
 
-.navbar-light .navbar-brand {
-    color: #57E2E2 !important
-}
-
-.navbar-light .navbar-brand span {
+.cor_paulas_titulo {
     color: #F8B2C0 !important
 }
 
 .cor_da_pesquisa {
     color: #D58819 !important;
     border-color: #D58819 !important;
+    
 }
 
 .cor_da_pesquisa:hover {
     color: #D58819 !important;
     border-color: #D58819 !important;
-    background-color: #FFF0DB !important;
+    background-color: #4c4747 !important;
 }
 
-.form-control {
-    background-color: #FFF0DB!important;
-    border-color: #D58819 !important;
+.fundo_pesquisa_navbar {
+    background-color: #fffbf5!important;
+    border-color: black !important;
 }
-
 
 /* Footer */
 
