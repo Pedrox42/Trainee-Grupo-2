@@ -39,7 +39,7 @@ class QueryBuilder
      * @param  string $table
      * @param  array  $parameters
      */
-    public function insert($table, $parameters)
+    public function create($table, $parameters)
     {
 
     }
@@ -50,7 +50,7 @@ class QueryBuilder
          
     }
 
-    public function edit()
+    public function update()
     {
       
          
