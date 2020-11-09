@@ -1,0 +1,666 @@
+.corpo-formu {
+    background-color: #fff0db;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #3f3a3a;
+}
+
+.corpo-formu h1 {
+    font-size: 43px;
+}
+
+.botao-formu {
+    transform: translateY(110px);
+    background: linear-gradient(to right, #fc8f00, #feb501);
+    color: #3f3a3a;
+}
+.corpo-formu .form-control {
+    border-color: #D58819 !important;
+}
+.sidenav-sidebar {
+    font-family: 'Baloo Chettan 2', cursive;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    background-color: #3f3a3a;
+    overflow-x: hidden;
+    left: 0;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+.sidenav-sidebar h2 {
+    padding: 10px 10px 30px 20px;
+}
+
+.sidenav-sidebar hr {
+    background-color: #d58819;
+    opacity: 0.3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidenav-sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #d58819;
+    display: block;
+}
+
+.sidenav-sidebar a:hover {
+    background-color: #d58819;
+    color: #3f3a3a;
+}
+
+.sidenav-sidebar .botao-sidebar:hover {
+    opacity: 0.8;
+    background-color: #3f3a3a;
+    color: #d58819;
+}
+
+.sidenav-sidebar .botao-sidebar {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.menu-sidebar {
+    color: #3f3a3a;
+}
+
+.menu-sidebar:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#main-sidebar {
+    margin-left: 250px;
+    transition: margin-left 0.5s;
+    max-width: 100%;
+}
+/* Homepage Adm */
+
+.nome_area_adm {
+    transform: translateX(10px) !important;
+    font-size: 20px;
+    opacity: 60%
+}
+
+.formato_area_adm {
+    padding: 0px !important;
+}
+
+.paulas_titulo_adm {
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #D58819;
+    background-image: linear-gradient(to right, #fffcf5, #fffbf5);
+    border-color: black !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cor_titulo_paulas {
+    color: #57E2E2;
+}
+
+.cor_fundo_adm {
+    background-color: #FFF0DB;
+}
+
+.colunas_adm {
+    transform: translateY(300px) !important;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 1px 1px 5px black !important;
+    background-image: linear-gradient(to right, #3F3A3A, #242222);
+}
+
+.tamanho_icone_adm {
+    font-size: 80px !important;
+    color: #D58819;
+}
+
+.tamanho_icone_adm:hover {
+    font-size: 80px !important;
+    color: #D58819;
+    opacity: 85%;
+}
+
+.tamanho_fonte_adm {
+    font-size: 20px;
+    text-align: center !important;
+    transform: translateY(20px) !important;
+    margin-bottom: 30px !important;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #D58819;
+}
+  
+/* Login Tela */
+    
+    .corpo_site {
+        background-color: #FFF0DB;
+        font-family: 'Baloo Chettan 2', cursive;
+    }
+    
+    .fundo_login {
+        box-shadow: 1px 1px 5px #ccc;
+        background-color: white;
+        padding: 30px;
+        border-radius: 5px;
+    }
+    
+    .formato_login {
+        width: 400px;
+        margin: auto;
+        padding-top: 40px;
+    }
+    
+    .logo_paulas_login {
+        width: 190px;
+        transform: translateY(-10px);
+    }
+    
+    .login_topo {
+        text-align: center;
+    }
+    
+    .titulo_login {
+        color: orange;
+    }
+    
+    .formato_botao_login button {
+        background-image: linear-gradient(to right, #fb8f00, #feb400);
+        width: 100%;
+        border-radius: 30px;
+        padding: 15px;
+        color: white;
+        border: 0px;
+        outline: 0;
+        margin-top: 15px;
+    }
+    
+    .formato_botao_login button:hover {
+        background-image: linear-gradient(to right, #fb8f00, #feb400);
+        opacity: 90%;
+    }
+    
+    .olho_mostrar_senha {
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+    }
+    
+    #hide1 {
+        display: none;
+    }
+    
+    .relative {
+        position: relative;
+    }
+    
+    .olho_senha {
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+    }
+      
+    @media (max-width: 1024px) {
+        .formato_login {
+            height: auto;
+            width: auto;
+    }
+        }
+
+.forma-grupo button:hover {
+    background-image: linear-gradient(to right, #fb8f00, #feb400);
+    opacity: 90%; }
+
+/* Produtos */
+.tudo-produtos {
+    background-color: #fff0db !important;
+    color: #3f3a3a;
+}
+
+.corpo-produtos {
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: 400;
+}
+
+.corpo-produtos h2 {
+    font-weight: 500;
+}
+
+.link-produtos, .link-produtos:hover, .link-produtos:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.wrapper-produtos {
+    display: flex;
+}
+
+.navlista-produtos {
+    margin-top: -10%;
+}
+
+#sidebar-produtos {
+    min-width: 250px;
+    max-width: 250px;
+    background: #3f3a3a;
+    color: #d58819;
+    transition: all 0.3s;
+}
+
+#sidebar-produtos {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3f3a3a;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    width: 250px;
+}
+
+#sidebar-produtos .sidebar-header {
+    padding: 20px;
+}
+
+#sidebar-produtos h3 {
+    font-size: 50px;
+}
+
+#sidebar-produtos a {
+    text-decoration: none;
+}
+
+#sidebar-produtos ul.components {
+    padding: 20px 0;
+}
+
+#sidebar-produtos ul p {
+    color: #d58819;
+}
+
+#sidebar-produtos ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar-produtos ul li a:hover {
+    color: #3f3a3a;
+    background: #d58819;
+    background-size: 100%;
+}
+
+#main-produtos {
+    transition: margin-left .5s;
+    padding: 20px;
+    margin-left: 255px;
+}
+
+.link-produtos[data-toggle="collapse"] {
+    position: relative;
+}
+
+#content-produtos {
+    max-width: 100%;
+    padding: 20px;
+}
+
+.cards-produtos {
+    font-family: 'Baloo Chettan 2', cursive;
+    background-color: #3e3b39 !important;
+}
+
+.cards-produtos h3 {
+    font-size: 24px;
+    color: #f8b2c0;
+}
+
+.cards-produtos h3:hover {
+    opacity: 0.8;
+}
+
+.cards-produtos h4 {
+    font-size: 18px;
+    color: #57e2e2;
+}
+
+.cards-produtos a {
+    text-decoration: none !important;
+}
+/* Navbar */
+
+body {
+    background-color: #FFF0DB !important;   
+}
+
+.navbar_cor {
+    background-image: linear-gradient(to right, #3F3A3A, #242222);
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.tamanho_paula {
+    font-size: 25px;
+    color: #57E2E2 !important;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.tamanho_navbar span {
+    font-size: 25px;
+}
+
+.fonte_cor_navbar {
+    color: #D58819 !important;
+    font-size: 18px;
+}
+
+.fonte_cor_navbar:hover {
+    color: #D58819 !important;
+    opacity: 75%;
+}
+
+.cor_paulas_titulo {
+    color: #F8B2C0 !important;
+}
+
+.cor_da_pesquisa {
+    color: #D58819 !important;
+    border-color: #D58819 !important;
+    
+}
+
+.cor_da_pesquisa:hover {
+    color: #D58819 !important;
+    border-color: #D58819 !important;
+    background-color: #4c4747 !important;
+}
+
+.fundo_pesquisa_navbar {
+    background-color: #fffbf5!important;
+    border-color: black !important;
+}
+
+/* Footer */
+
+.footer-paulas {
+    background-color: #3F3A3A;
+    color: #D58819;
+    width: 100%;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.coluna-footer-paulas ul li {
+    list-style: none;
+}
+
+a {
+    color: #D58819 !important;
+}
+
+a:hover {
+    color: #FFF0DB !important;
+    text-decoration: none !important;
+}
+
+
+/* Contato */
+.contato{
+    color: #3f3a3a;
+    background-color: #fff0d8;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.titulo-contato h1{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 80px;
+
+
+}
+
+.contato h3{
+    text-align: center;
+    font-weight: 500;
+
+    margin-top: 15px;
+}
+.contato h5{
+    text-align: center;
+}
+
+.contato button{
+    background-color: #d58819;
+}
+
+.redes-sociais-contato{
+    text-align: center;
+}
+
+.imagem-redes-contato{
+    font-size: 40px;
+    margin-top: 15px;
+    color: #3f3a3a;
+}
+.form-contato{
+    border-color: #d58819 !important;
+    background-color: #fffcf5 !important;
+}
+.form-contato:focus{
+    box-shadow: 0px 0px 10px 2px #d58819;
+}
+
+.mensagem-contato{
+    resize: none;
+}
+.mapa-contato{
+    margin-top: 15px;
+}
+.mapa-contato iframe{
+    margin-top: 15px;
+}
+<<<<<<< HEAD
+=======
+
+/* Crud Adm */
+.frontend_crud{
+    color: #3f3a3a;
+    background-color: #fff0d8;
+    font-family: 'Baloo Bhaina 2', cursive;
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.frontend_crud h3{
+    font-weight: 500;
+    font-size: large;
+    margin-top: 15px;
+}
+.frontend_crud button{
+width: 100%;
+font-size: 12px;
+padding-left: 0%;
+padding-right: 0%;
+}
+.pequeno_crud{
+    display: none;
+}
+.medio_crud{
+    display: none;
+}
+.grande_crud{
+    display: none;
+}
+.frontend_crud{
+    background-color: #fff0d8;
+}
+.btn_editar{
+    background-color: #d58819;
+
+}
+.btn_mostrar{
+    background-color:#57E2E2;
+
+}
+.btn_excluir{
+background-color: #F8B2C0;
+    
+}
+/*pequeno*/
+    .pequeno_crud{
+        display: inline;
+    }
+    .medio_crud {
+        display: none;
+    }
+    .grande_crud{
+        display: none;
+    }
+    .extra_crud{
+        display: none;
+    }
+/*medio*/
+@media (min-width:786px){
+    .pequeno_crud{
+        display: none;
+    }
+    .medio_crud{
+        display: inline;
+    }
+    .grande_crud{
+        display: none;
+    }
+    .extra_crud{
+        display: none ;
+    }
+}
+/*grande*/
+@media (min-width:992px){
+    .pequeno_crud{
+        display: none ;
+    }
+    .medio_crud{
+        display: none ;
+    }
+    .grande_crud{
+        display: inline ;
+    }
+    .extra_crud{
+        display: none;
+    }
+}
+/*extra grande*/
+@media (min-width:1200px){
+    .pequeno_crud{
+        display: none ;
+    }
+    .medio_crud{
+        display: none ;
+    }
+    .grande_crud{
+        display: none ;
+    }
+    .extra_crud{
+        display: inline;
+    }
+}
+
+
+>>>>>>> main
+
+.container-fluid {
+    background-color: #fef0db;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.produto-home {
+    background-color: #fef0db;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.produto-home h1 {
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #3e3b39;
+}
+
+.produto-home h2 {
+    color: #3e3b39;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.pedido-home {
+    background-color: #fef0db;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.card-home {
+    background-color: #3e3b39 !important;
+}
+
+.card-home h5 {
+    color: #b2edef;
+}
+
+.card-home h6 {
+    color: #ff66c4;
+    font-size: 20px;
+}
+
+.button-home {
+    color: white !important;
+    background-color: #d9861b !important;
+}
+
+.pedido-home-text h1 {
+    color: #d9861b;
+}
+
+.pedido-home-text h3 {
+    color: #3e3b39;
+}
+/* Footer */
+
+.footer-paulas {
+    background-color: #3F3A3A;
+    color: #D58819;
+    width: 100%;
+    font-family: 'Baloo Chettan 2', cursive !important;
+    font-weight: 600;
+}
+
+.coluna-footer-paulas ul li {
+    list-style: none;
+    padding: 0px;
+}
+
+.fonte-footer {
+    color: #D58819 !important;
+
+}
+
+.fonte-footer:hover {
+    color: #FFF0DB !important;
+    text-decoration: none !important;
+}
+
+
+.tamanho-icone  {
+    font-size: 20px;
+}
+
+.menu-ul {
+    padding: 0px;
+}
