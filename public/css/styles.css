@@ -422,7 +422,7 @@ a:hover {
 .titulo-contato h1{
     text-align: center;
     font-weight: 700;
-    margin-top: 7%;
+    margin-top: 80px;
 
 
 }
@@ -452,7 +452,7 @@ a:hover {
 }
 .form-contato{
     border-color: #d58819 !important;
-    background-color: #ffffff !important;
+    background-color: #fffcf5 !important;
 }
 .form-contato:focus{
     box-shadow: 0px 0px 10px 2px #d58819;
@@ -467,6 +467,8 @@ a:hover {
 .mapa-contato iframe{
     margin-top: 15px;
 }
+<<<<<<< HEAD
+=======
 
 /* Crud Adm */
 .frontend_crud{
@@ -572,6 +574,7 @@ background-color: #F8B2C0;
 }
 
 
+>>>>>>> main
 
 .container-fluid {
     background-color: #fef0db;

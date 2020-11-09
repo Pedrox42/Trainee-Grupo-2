@@ -1,0 +1,54 @@
+.frontend_crud{
+    color: #3f3a3a;
+    background-color: #fff0d8;
+    font-family: 'Baloo Bhaina 2', cursive;
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.frontend_crud button{
+    width: 75%;
+    min-width: 120px;
+}
+
+.frontend_crud{
+    background-color: #fff0d8;
+}
+.frontend_crud h1{
+    font-weight: 700;
+    font-size: xx-large;
+}
+.btn_adicionar_crud{
+    background-color: #d58819;
+}
+.btn_atualizar_crud{
+    background-color:#F8B2C0;
+}
+.tabela_crud{
+    background-color: #3f3a3a;
+    color: #d58819;
+    border-color: #d58819 !important;
+}
+.tabela_crud thead{
+    background-color: #57E2E2;
+    color: #3f3a3a;
+}
+.btn_editar_crud{
+    background-color: #d58819;
+
+}
+.btn_informacao_crud{
+    background-color:#57E2E2;
+}
+.btn_excluir_crud{
+    background-color: #F8B2C0;
+}
+.quebra_td_off_crud{
+
+    white-space: nowrap;
+ 
+ }
+ .quebra_th_off_crud{
+    white-space: nowrap;
+
+ }
